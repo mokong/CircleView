@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F2BDA14EE4F1E0BA92B4FC8 /* libPods-MKCollectionCircleView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8AB4D72E86F8BFF1994A6CDB /* libPods-MKCollectionCircleView.a */; };
+		3E71D2541C34D87C008AA3C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E71D2531C34D87C008AA3C6 /* main.m */; };
+		3E71D2571C34D87C008AA3C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E71D2561C34D87C008AA3C6 /* AppDelegate.m */; };
+		3E71D25A1C34D87C008AA3C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E71D2591C34D87C008AA3C6 /* ViewController.m */; };
+		3E71D25D1C34D87C008AA3C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E71D25B1C34D87C008AA3C6 /* Main.storyboard */; };
+		3E71D25F1C34D87C008AA3C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E71D25E1C34D87C008AA3C6 /* Assets.xcassets */; };
+		3E71D2621C34D87C008AA3C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E71D2601C34D87C008AA3C6 /* LaunchScreen.storyboard */; };
+		3E71D26B1C34DAAB008AA3C6 /* MKCollectionCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E71D26A1C34DAAB008AA3C6 /* MKCollectionCircleView.m */; };
+		3E71D26F1C34DD33008AA3C6 /* MKCollectionViewCircleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E71D26D1C34DD33008AA3C6 /* MKCollectionViewCircleCell.m */; };
+		3E71D2701C34DD33008AA3C6 /* MKCollectionViewCircleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E71D26E1C34DD33008AA3C6 /* MKCollectionViewCircleCell.xib */; };
+		3E71D2731C350D8A008AA3C6 /* CollectionCircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E71D2721C350D8A008AA3C6 /* CollectionCircleViewController.m */; };
+		3EF3437A1C3A428600E7E3BC /* MKScrollCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF343791C3A428600E7E3BC /* MKScrollCircleView.m */; };
+		3EF3437D1C3A4DEF00E7E3BC /* MKScrollCircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF3437C1C3A4DEF00E7E3BC /* MKScrollCircleViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		25823888357E025D2878F1AF /* Pods-MKCollectionCircleView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKCollectionCircleView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MKCollectionCircleView/Pods-MKCollectionCircleView.debug.xcconfig"; sourceTree = "<group>"; };
+		3E71D24F1C34D87C008AA3C6 /* MKCollectionCircleView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MKCollectionCircleView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E71D2531C34D87C008AA3C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3E71D2551C34D87C008AA3C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3E71D2561C34D87C008AA3C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3E71D2581C34D87C008AA3C6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3E71D2591C34D87C008AA3C6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3E71D25C1C34D87C008AA3C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3E71D25E1C34D87C008AA3C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3E71D2611C34D87C008AA3C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3E71D2631C34D87C008AA3C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E71D2691C34DAAB008AA3C6 /* MKCollectionCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKCollectionCircleView.h; sourceTree = "<group>"; };
+		3E71D26A1C34DAAB008AA3C6 /* MKCollectionCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKCollectionCircleView.m; sourceTree = "<group>"; };
+		3E71D26C1C34DD33008AA3C6 /* MKCollectionViewCircleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKCollectionViewCircleCell.h; sourceTree = "<group>"; };
+		3E71D26D1C34DD33008AA3C6 /* MKCollectionViewCircleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKCollectionViewCircleCell.m; sourceTree = "<group>"; };
+		3E71D26E1C34DD33008AA3C6 /* MKCollectionViewCircleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MKCollectionViewCircleCell.xib; sourceTree = "<group>"; };
+		3E71D2711C350D8A008AA3C6 /* CollectionCircleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionCircleViewController.h; sourceTree = "<group>"; };
+		3E71D2721C350D8A008AA3C6 /* CollectionCircleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionCircleViewController.m; sourceTree = "<group>"; };
+		3EF343781C3A428600E7E3BC /* MKScrollCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKScrollCircleView.h; sourceTree = "<group>"; };
+		3EF343791C3A428600E7E3BC /* MKScrollCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKScrollCircleView.m; sourceTree = "<group>"; };
+		3EF3437B1C3A4DEF00E7E3BC /* MKScrollCircleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKScrollCircleViewController.h; sourceTree = "<group>"; };
+		3EF3437C1C3A4DEF00E7E3BC /* MKScrollCircleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKScrollCircleViewController.m; sourceTree = "<group>"; };
+		8229ECDF72DA7285636E807E /* Pods-MKCollectionCircleView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MKCollectionCircleView.release.xcconfig"; path = "Pods/Target Support Files/Pods-MKCollectionCircleView/Pods-MKCollectionCircleView.release.xcconfig"; sourceTree = "<group>"; };
+		8AB4D72E86F8BFF1994A6CDB /* libPods-MKCollectionCircleView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MKCollectionCircleView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E71D24C1C34D87C008AA3C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F2BDA14EE4F1E0BA92B4FC8 /* libPods-MKCollectionCircleView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E71D2461C34D87C008AA3C6 = {
+			isa = PBXGroup;
+			children = (
+				3E71D2511C34D87C008AA3C6 /* MKCollectionCircleView */,
+				3E71D2501C34D87C008AA3C6 /* Products */,
+				4C1CF5887777266E44369350 /* Pods */,
+				D2895D7E7F353174B3DA84A2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3E71D2501C34D87C008AA3C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E71D24F1C34D87C008AA3C6 /* MKCollectionCircleView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E71D2511C34D87C008AA3C6 /* MKCollectionCircleView */ = {
+			isa = PBXGroup;
+			children = (
+				3EF343771C3A240500E7E3BC /* ScrollCircleView */,
+				3EF343761C3A23DD00E7E3BC /* collectionCirCleView */,
+				3E71D2551C34D87C008AA3C6 /* AppDelegate.h */,
+				3E71D2561C34D87C008AA3C6 /* AppDelegate.m */,
+				3E71D2581C34D87C008AA3C6 /* ViewController.h */,
+				3E71D2591C34D87C008AA3C6 /* ViewController.m */,
+				3E71D25B1C34D87C008AA3C6 /* Main.storyboard */,
+				3E71D2521C34D87C008AA3C6 /* Supporting Files */,
+			);
+			path = MKCollectionCircleView;
+			sourceTree = "<group>";
+		};
+		3E71D2521C34D87C008AA3C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E71D25E1C34D87C008AA3C6 /* Assets.xcassets */,
+				3E71D2601C34D87C008AA3C6 /* LaunchScreen.storyboard */,
+				3E71D2631C34D87C008AA3C6 /* Info.plist */,
+				3E71D2531C34D87C008AA3C6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3EF343761C3A23DD00E7E3BC /* collectionCirCleView */ = {
+			isa = PBXGroup;
+			children = (
+				3E71D26C1C34DD33008AA3C6 /* MKCollectionViewCircleCell.h */,
+				3E71D26D1C34DD33008AA3C6 /* MKCollectionViewCircleCell.m */,
+				3E71D26E1C34DD33008AA3C6 /* MKCollectionViewCircleCell.xib */,
+				3E71D2691C34DAAB008AA3C6 /* MKCollectionCircleView.h */,
+				3E71D26A1C34DAAB008AA3C6 /* MKCollectionCircleView.m */,
+				3E71D2711C350D8A008AA3C6 /* CollectionCircleViewController.h */,
+				3E71D2721C350D8A008AA3C6 /* CollectionCircleViewController.m */,
+			);
+			name = collectionCirCleView;
+			sourceTree = "<group>";
+		};
+		3EF343771C3A240500E7E3BC /* ScrollCircleView */ = {
+			isa = PBXGroup;
+			children = (
+				3EF343781C3A428600E7E3BC /* MKScrollCircleView.h */,
+				3EF343791C3A428600E7E3BC /* MKScrollCircleView.m */,
+				3EF3437B1C3A4DEF00E7E3BC /* MKScrollCircleViewController.h */,
+				3EF3437C1C3A4DEF00E7E3BC /* MKScrollCircleViewController.m */,
+			);
+			name = ScrollCircleView;
+			sourceTree = "<group>";
+		};
+		4C1CF5887777266E44369350 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25823888357E025D2878F1AF /* Pods-MKCollectionCircleView.debug.xcconfig */,
+				8229ECDF72DA7285636E807E /* Pods-MKCollectionCircleView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D2895D7E7F353174B3DA84A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8AB4D72E86F8BFF1994A6CDB /* libPods-MKCollectionCircleView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E71D24E1C34D87C008AA3C6 /* MKCollectionCircleView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E71D2661C34D87C008AA3C6 /* Build configuration list for PBXNativeTarget "MKCollectionCircleView" */;
+			buildPhases = (
+				3DBEAA87ADBBEC6CD06BAF34 /* Check Pods Manifest.lock */,
+				3E71D24B1C34D87C008AA3C6 /* Sources */,
+				3E71D24C1C34D87C008AA3C6 /* Frameworks */,
+				3E71D24D1C34D87C008AA3C6 /* Resources */,
+				9DC03D01C80997281D10C46C /* Embed Pods Frameworks */,
+				B7DDFD5AC7936B85BDD4EC08 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MKCollectionCircleView;
+			productName = MKCollectionCircleView;
+			productReference = 3E71D24F1C34D87C008AA3C6 /* MKCollectionCircleView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E71D2471C34D87C008AA3C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = wiwide;
+				TargetAttributes = {
+					3E71D24E1C34D87C008AA3C6 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 3E71D24A1C34D87C008AA3C6 /* Build configuration list for PBXProject "MKCollectionCircleView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3E71D2461C34D87C008AA3C6;
+			productRefGroup = 3E71D2501C34D87C008AA3C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E71D24E1C34D87C008AA3C6 /* MKCollectionCircleView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3E71D24D1C34D87C008AA3C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E71D2701C34DD33008AA3C6 /* MKCollectionViewCircleCell.xib in Resources */,
+				3E71D2621C34D87C008AA3C6 /* LaunchScreen.storyboard in Resources */,
+				3E71D25F1C34D87C008AA3C6 /* Assets.xcassets in Resources */,
+				3E71D25D1C34D87C008AA3C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3DBEAA87ADBBEC6CD06BAF34 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9DC03D01C80997281D10C46C /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MKCollectionCircleView/Pods-MKCollectionCircleView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7DDFD5AC7936B85BDD4EC08 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MKCollectionCircleView/Pods-MKCollectionCircleView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E71D24B1C34D87C008AA3C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E71D2731C350D8A008AA3C6 /* CollectionCircleViewController.m in Sources */,
+				3EF3437D1C3A4DEF00E7E3BC /* MKScrollCircleViewController.m in Sources */,
+				3EF3437A1C3A428600E7E3BC /* MKScrollCircleView.m in Sources */,
+				3E71D26B1C34DAAB008AA3C6 /* MKCollectionCircleView.m in Sources */,
+				3E71D25A1C34D87C008AA3C6 /* ViewController.m in Sources */,
+				3E71D2571C34D87C008AA3C6 /* AppDelegate.m in Sources */,
+				3E71D2541C34D87C008AA3C6 /* main.m in Sources */,
+				3E71D26F1C34DD33008AA3C6 /* MKCollectionViewCircleCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3E71D25B1C34D87C008AA3C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E71D25C1C34D87C008AA3C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3E71D2601C34D87C008AA3C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3E71D2611C34D87C008AA3C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3E71D2641C34D87C008AA3C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3E71D2651C34D87C008AA3C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3E71D2671C34D87C008AA3C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25823888357E025D2878F1AF /* Pods-MKCollectionCircleView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MKCollectionCircleView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wiwide.MKCollectionCircleView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3E71D2681C34D87C008AA3C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8229ECDF72DA7285636E807E /* Pods-MKCollectionCircleView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MKCollectionCircleView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wiwide.MKCollectionCircleView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E71D24A1C34D87C008AA3C6 /* Build configuration list for PBXProject "MKCollectionCircleView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E71D2641C34D87C008AA3C6 /* Debug */,
+				3E71D2651C34D87C008AA3C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E71D2661C34D87C008AA3C6 /* Build configuration list for PBXNativeTarget "MKCollectionCircleView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E71D2671C34D87C008AA3C6 /* Debug */,
+				3E71D2681C34D87C008AA3C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E71D2471C34D87C008AA3C6 /* Project object */;
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="MKCollectionViewCircleCell">
+            <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="H5x-Dg-6rt">
+                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yfk-d2-Qzz">
+                        <rect key="frame" x="4" y="14" width="42" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstItem="Yfk-d2-Qzz" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="636-bX-9RM"/>
+                <constraint firstItem="Yfk-d2-Qzz" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="89p-WM-pse"/>
+                <constraint firstAttribute="bottom" secondItem="H5x-Dg-6rt" secondAttribute="bottom" id="Nxf-0O-4mz"/>
+                <constraint firstAttribute="trailing" secondItem="H5x-Dg-6rt" secondAttribute="trailing" id="Vag-cO-lBb"/>
+                <constraint firstItem="H5x-Dg-6rt" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="W24-RW-vcr"/>
+                <constraint firstItem="H5x-Dg-6rt" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="ybd-EQ-hie"/>
+            </constraints>
+            <connections>
+                <outlet property="displayImageView" destination="H5x-Dg-6rt" id="Qnt-hA-6t0"/>
+                <outlet property="displayLabel" destination="Yfk-d2-Qzz" id="BKw-WU-ykR"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+</document>
